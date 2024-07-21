@@ -52,7 +52,7 @@ const App = () => {
         ...prevData,
         {
           type: "response",
-          text: "Something Went Wrong!",
+          text: "Something Went Wrong! but Don't worry OMEN AI gonna fix it soon",
         },
       ]);
       setLoading(false);
@@ -61,7 +61,8 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1>ChatGPT Clone</h1>
+      <h1>OMEN AI</h1>
+      <img src={ChatGPTsvg} alt="OMEN AI" className="header-image" />
       <div className="conversation-container">
         {conversation.length === 0 ? (
           <div className="conversation-reponse query-container">
